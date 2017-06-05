@@ -7,7 +7,7 @@ Laravel Form Request implementing **zend-filter** for sanitization of inputs.
 
 # How to install zend-filter component
 ```bash
-    composer require zend-filter ^2.7
+    composer require zendframework/zend-filter ^2.7
 ```
 
 # Installation
@@ -53,6 +53,8 @@ class UserRequest extends FormRequest
     // more code below
 }
 ```
+
+For class reference of zend-filters see: https://zendframework.github.io/zend-filter/standard-filters/
 
 If the **zend-db** filter class requires an option to be pass to its constructor. You can supply an array to it (see to example above).
 
